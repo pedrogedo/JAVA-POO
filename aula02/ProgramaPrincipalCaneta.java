@@ -1,9 +1,12 @@
 package aula02;
-
+/**
+ * Criando Classes e Objetos em Java
+ * @author Pedro
+ */
 public class ProgramaPrincipalCaneta {
 
     public static void main(String[] args) {
-        
+        //Instanciando a classe Caneta, objeto c1
         Caneta c1 = new Caneta();
         c1.cor = "Azul";
         c1.modelo = "RX4758";
@@ -13,6 +16,7 @@ public class ProgramaPrincipalCaneta {
         c1.status();
         c1.rabiscar();
         
+        //Instanciando a classe Caneta, objeto c2
         Caneta c2 = new Caneta();
         c2.cor = "Preta";
         c2.modelo = "Tec-01245";

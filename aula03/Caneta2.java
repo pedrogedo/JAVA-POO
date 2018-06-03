@@ -1,14 +1,14 @@
-package aula02;
+package aula03;
 /**
- * Criando Classes e Objetos em Java
+ * Configurando Visibilidade de Atributos e Métodos
  * @author Pedro
  */
-public class Caneta {
-    String modelo;
-    String cor;
-    float ponta;
-    int carga;
-    boolean tampada;
+public class Caneta2 {
+    public String modelo; //A classe atual e todas as outras classes acessam.
+    public String cor;
+    protected float ponta; //A classe atual e todas as suas sub-classes acessam.
+    protected int carga;
+    private boolean tampada; //Somente a classe atual acessa.
     
     void status(){
         System.out.println("Modelo: "+this.modelo);
