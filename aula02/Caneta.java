@@ -4,6 +4,7 @@ package aula02;
  * @author Pedro
  */
 public class Caneta {
+    String marca;
     String modelo;
     String cor;
     float ponta;
