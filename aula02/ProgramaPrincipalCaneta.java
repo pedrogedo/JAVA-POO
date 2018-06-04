@@ -19,7 +19,7 @@ public class ProgramaPrincipalCaneta {
         
         //Instanciando a classe Caneta, objeto c2
         Caneta c2 = new Caneta();
-        c2.marca = "COMPACTOR"
+        c2.marca = "COMPACTOR";
         c2.cor = "Preta";
         c2.modelo = "Tec-01245";
         c2.ponta = 1.0f;
