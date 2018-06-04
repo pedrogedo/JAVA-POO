@@ -1,6 +1,6 @@
 package aula02;
 /**
- * Criando Classes e Objetos em Java
+ * Criando Classes e Objetos em Java.
  * @author Pedro
  */
 public class ProgramaPrincipalCaneta {

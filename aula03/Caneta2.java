@@ -1,6 +1,6 @@
 package aula03;
 /**
- * Configurando Visibilidade de Atributos e Métodos
+ * Configurando Visibilidade de Atributos e Métodos.
  * @author Pedro
  */
 public class Caneta2 {
