@@ -18,10 +18,11 @@ public class ContaBanco {
     /**
      * Esse método muda o status da conta para verdadeiro e caso seja CC a conta inicia 
      * com o valor de R$ 50,00, caso seja uma conta CP, inicia com o valor de R$ 150,00.
+     * @param tipo
      */
-    public void abrirConta(){
+    public void abrirConta(String tipo){
         setStatus(true);
-        
+        this.setTipo(tipo);
         if(getTipo() == "CC"){
             setSaldo(50f);
         }else if(getTipo() == "CP"){
