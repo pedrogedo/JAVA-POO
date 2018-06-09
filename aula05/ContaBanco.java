@@ -13,52 +13,7 @@ public class ContaBanco {
     private float saldo;
     private boolean status;
 
-    //Método Especial Construtor.    
-    public ContaBanco(){
-        setStatus(false);
-        setSaldo(0);
-    }
-    
-    //Métodos especiais Getters e Setters.
-    public Integer getNumeroDaConta(){
-        return numeroDaConta;
-    }
-    
-    public void setNumeroDaConta(Integer numero){
-        this.numeroDaConta = numero;
-    }
-    
-    public String getTipo(){
-        return tipo;
-    }
-    
-    public void setTipo(String tipo){
-        this.tipo = tipo;
-    }
-    
-    public String getDono(){
-        return dono;
-    }
-    
-    public void setDono(String dono){
-        this.dono = dono;
-    }
-    
-    public float getSaldo(){
-        return saldo;
-    }
-    
-    public void setSaldo(float saldo){
-        this.saldo = saldo;
-    }
-    
-    public boolean getStatus(){
-        return status;
-    }
-    
-    public void setStatus(boolean status){
-        this.status = status;
-    }
+    //Métodos Personalizados.
     
     /**
      * Esse método muda o status da conta para verdadeiro e caso seja CC a conta inicia 
@@ -134,4 +89,51 @@ public class ContaBanco {
             setSaldo(getSaldo()- 20f);
         }
     }    
+    
+    //Método Especial Construtor.    
+    public ContaBanco(){
+        setStatus(false);
+        setSaldo(0);
+    }
+    
+    //Métodos especiais Getters e Setters.
+    public Integer getNumeroDaConta(){
+        return numeroDaConta;
+    }
+    
+    public void setNumeroDaConta(Integer numero){
+        this.numeroDaConta = numero;
+    }
+    
+    public String getTipo(){
+        return tipo;
+    }
+    
+    public void setTipo(String tipo){
+        this.tipo = tipo;
+    }
+    
+    public String getDono(){
+        return dono;
+    }
+    
+    public void setDono(String dono){
+        this.dono = dono;
+    }
+    
+    public float getSaldo(){
+        return saldo;
+    }
+    
+    public void setSaldo(float saldo){
+        this.saldo = saldo;
+    }
+    
+    public boolean getStatus(){
+        return status;
+    }
+    
+    public void setStatus(boolean status){
+        this.status = status;
+    }
 }
